@@ -4,7 +4,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    if brand == brand.new do
+      BRANDS << brand
+    end
   end
 
   BRANDS = []
